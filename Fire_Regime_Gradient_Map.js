@@ -228,15 +228,3 @@ Export.image.toDrive({
   maxPixels: 1e13,
   fileDimensions: 4000
 });
-
-Export.image.toDrive({
-  image: change,
-  description: 'Change',
-  folder: 'CINTIA',
-  fileNamePrefix: 'CHANGE',
-  region: region,
-  scale: 30,
-  crs: 'EPSG:4674',
-  maxPixels: 1e13,
-  fileDimensions: 4000
-});
